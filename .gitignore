@@ -1,5 +1,10 @@
 gcp-credentials.json
-.env
+*.csv
+*.json
+dbt_project/target/
+dbt_project/.user.yml
+dbt_project/logs/
 logs/
 __pycache__/
 *.pyc
+.env
