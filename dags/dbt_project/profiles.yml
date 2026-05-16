@@ -1,0 +1,12 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: de-weather-project-492917
+      dataset: weather_processed
+      threads: 4
+      timeout_seconds: 300
+      location: US
+      keyfile: /opt/airflow/gcp-credentials.json

@@ -1,0 +1,9 @@
+pyspark
+requests
+google-cloud-bigquery
+google-cloud-bigquery-storage
+pyspark
+requests
+google-cloud-bigquery
+google-cloud-bigquery-storage
+dbt-bigquery

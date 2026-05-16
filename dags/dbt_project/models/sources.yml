@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: weather_processed
+    database: de-weather-project-492917
+    schema: weather_processed
+    tables:
+      - name: daily_weather
